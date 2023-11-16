@@ -1,12 +1,111 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Title</title>
+    <title>Estate</title>
 </head>
+
 <body>
-    
+    <div class="body_container">
+        <div class="fone">
+            <div class="fone__orngfilter"></div>
+            <div class="fone__filter"></div>
+            <div class="fone__blur"></div>
+        </div>
+        <header class="header">
+            <div class="header__btn-burger">
+            </div>
+            <div class="header__phone">+7 919 48 41 786</div>
+        </header>
+        <main>
+            <div class="main_container">
+                <section class="firstscreen">
+                    <div class="firstscreen__promo">Уютная усадьба в атмосфере первозданной
+                        природы,<br>укрытая природой
+                        от окружения</div>
+                    <div class="firstscreen__title">
+                        <pre class="main_title">Усадьба   в   Карелии</pre>
+                        <div class="circle_title"></div>
+                    </div>
+                    <form class="form" action="#">
+                        <div class="form__rent"><span>Арендовать</span></div>
+                        <input class="form__name form_input" name='name' placeholder="Ваше имя" type="text">
+                        <input class="form__tel form_input" name='tel' placeholder="Телефон" type="tel">
+                        <button class="form__btn">Отправить</button>
+                    </form>
+                    <div class="about">
+                        <div class="metric">
+                            <p class="metric__count">0,5 га</p>
+                            <p class="metric__description">Площадь усадьбы</p>
+                        </div>
+                        <div class="metric">
+                            <p class="metric__count">0,25 га</p>
+                            <p class="metric__description">Cобственнй берег</p>
+                        </div>
+                        <div class="metric">
+                            <p class="metric__count">200 м2</p>
+                            <p class="metric__description">Mastar House</p>
+                        </div>
+                        <div class="metric">
+                            <p class="metric__count">150 м2</p>
+                            <p class="metric__description">Guest House</p>
+                        </div>
+                        <div class="metric">
+                            <p class="metric__count">230 м2</p>
+                            <p class="metric__description">Spa house</p>
+                        </div>
+                    </div>
+                    <div class="block">
+                        <div class="block__circle_brown"></div>
+                        <p class="block__title">В вашем распоряжении</p>
+                        <div class="block__img"></div>
+                        <div class="block__img hidden_img"></div>
+                    </div>
+                </section>
+                <section class="reels">
+                    <div class="reels__title">
+                        <p>Reels</p>
+                    </div>
+                    <div class="reels__video">
+                        <div class="reels__video_item">
+                            <canvas></canvas>
+                        </div>
+                        <div class="reels__video_item">
+                            <canvas></canvas>
+                        </div>
+                        <div class="reels__video_item">
+                            <canvas></canvas>
+                        </div>
+                        <div class="reels__video_item">
+                            <canvas></canvas>
+                        </div>
+                        <div class="reels__video_item">
+                            <canvas></canvas>
+                        </div>
+                    </div>
+                    <div class="reels__control">
+                        <div class="reels__control_groupbtn">
+                            <div class="reels__control_btn">
+                                <img src="/src/images/left_icon.svg" alt="left">
+                            </div>
+                            <div class="reels__control_btn">
+                                <img src="/src/images/right_icon.svg" alt="right">
+                            </div>
+                        </div>
+                        <div class="reels__control_position">
+                            <p class="position active">01</p>
+                            <p class="position">/05</p>
+                        </div>
+                    </div>
+                    <div class="reels__circle"></div>
+                </section>
+            </div>
+        </main>
+    </div>
 </body>
+<script type="text" src="index.js"></script>
+
 </html>
