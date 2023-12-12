@@ -370,7 +370,7 @@ body {
 
         &__description {
           display: grid;
-          grid-template-columns: 1fr 373px 357px;
+          grid-template-columns: 1fr 376px 360px;
 
           p {
             margin: 0;
@@ -692,6 +692,7 @@ body {
 
       &__foto_container {
         position: relative;
+
         span {
           position: absolute;
           z-index: -1;
@@ -741,7 +742,6 @@ body {
 
       &__fotoblock {
         width: 1356px;
-        //height: 1858px;
         display: grid;
         margin: -165px 0 0 219px;
         grid-template-rows: 392px 377px 278px 125px 791px;
@@ -772,6 +772,7 @@ body {
       &__slider {
         margin: 157px 0 0 20px;
       }
+
       .sh_foto {
         background-image: url("/src/images/slider_hammam.png");
       }
@@ -813,7 +814,7 @@ body {
       background: linear-gradient(178deg, rgba(9, 14, 23, 0.00) -0.4%, #090E17 65.11%);
       position: absolute;
       z-index: -3;
-      bottom: -86px;
+      bottom: -88px;
       left: -222px;
     }
 
@@ -834,6 +835,583 @@ body {
       left: -23px;
       z-index: -2;
     }
-  }
 
+    .container_margin {
+      margin-left: 219px;
+    }
+
+    .land_of_lakes {
+      margin-top: 322px;
+
+      img {
+        width: 100%;
+        height: 100%;
+      }
+
+      &__text_block {
+        width: 1356px;
+        margin-top: -107px;
+
+        p {
+          margin: 0;
+        }
+
+        > p {
+          font-family: Mirra Auriolic;
+          font-size: 220px;
+          line-height: 78%; /* 171.6px */
+          letter-spacing: -5px;
+        }
+
+        .text_block__container {
+          margin: 124px 0 0 379px;
+          display: flex;
+          gap: 34px;
+
+          :first-child {
+            width: 341px;
+          }
+
+          :last-child {
+            width: 607px;
+          }
+        }
+      }
+
+      &__slider_item {
+        width: 2003px;
+        margin-top: 209px;
+        display: flex;
+        justify-content: flex-end;
+        gap: 21px;
+      }
+
+      .slider_foto {
+        width: 485px;
+        height: 532px;
+      }
+
+      .slider_control {
+        width: 1486px;
+        margin-top: 16px;
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .arrow {
+        display: flex;
+        width: 357px;
+        gap: 281px;
+      }
+    }
+
+    .beside {
+      margin-top: 269px;
+      position: relative;
+
+      &__maintitle {
+        position: absolute;
+        margin: 0;
+        color: $brown;
+        font-family: Mirra Auriolic;
+        font-size: 220px;
+        line-height: 78%; /* 171.6px */
+        letter-spacing: -11px;
+      }
+
+      &__fotoblock {
+        position: relative;
+      }
+
+      &__fotoblock_img {
+        margin-left: 382px;
+        display: grid;
+        grid-template-columns: 753px 356px 252px;
+        grid-template-rows: 110px 303px 194px;
+
+        :first-child {
+          grid-row: 2/4;
+          grid-column: 1/2;
+        }
+
+        :last-child {
+          grid-row: 1/3;
+          grid-column: 2/3;
+        }
+
+        .color_block {
+          background-color: $brown;
+          grid-row: 2/4;
+          grid-column: 2/4;
+        }
+      }
+
+      &__arrow {
+        width: 1485px;
+        position: absolute;
+        display: flex;
+        justify-content: space-between;
+        top: 63%;
+      }
+
+      &__slider_description {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 1492px;
+        margin-top: 12px;
+
+        p {
+          margin: 0;
+        }
+      }
+
+      .slider_title {
+        color: $white1;
+        font-family: Mirra Auriolic;
+        font-size: 90px;
+        letter-spacing: -4.5px;
+      }
+
+      .slider_subtitle {
+        width: 357px;
+        height: 107px;
+      }
+    }
+
+    .guest_house {
+      display: flex;
+      margin-top: 435px;
+      gap: 63px;
+
+      .gh__textblock {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        .gh__title {
+          font-family: Mirra Auriolic;
+          font-size: 90px;
+          line-height: 96%; /* 86.4px */
+          letter-spacing: -4.5px;
+          margin: 0;
+        }
+
+        .gh__subtitle {
+          font-family: Poiret One;
+          font-size: 65px;
+          line-height: 77px; /* 118.462% */
+          letter-spacing: -3.25px;
+          width: 315px;
+          margin: 235px 0 0 0;
+        }
+      }
+
+      .gh__slider {
+        display: grid;
+        grid-template-columns: 733px 1fr 1fr 1fr;
+        gap: 16px;
+
+        .gh__slider_first_slide {
+          position: relative;
+
+          .gh__arrow {
+            display: flex;
+            justify-content: space-between;
+            width: 92%;
+            position: absolute;
+            bottom: 65px;
+            margin-left: 37px;
+          }
+        }
+      }
+
+
+    }
+
+    .on_site {
+      margin-top: 377px;
+      position: relative;
+
+      .os__design_element {
+        position: absolute;
+        z-index: -1;
+        top: 93px;
+        width: 699px;
+        height: 1205px;
+        background-color: $brown;
+      }
+
+      .os__textblock {
+        display: flex;
+        justify-content: space-between;
+        width: 1424px;
+
+        .os__title {
+          font-family: Mirra Auriolic;
+          font-size: 90px;
+          line-height: 96%; /* 86.4px */
+          letter-spacing: -4.5px;
+          padding-top: 23px;
+        }
+
+        .os__circle {
+          margin-top: -21px;
+          margin-left: 208px;
+        }
+
+        .os__description {
+          list-style: none;
+          line-height: 1.8;
+          font-size: 24px;
+          font-weight: 200;
+          letter-spacing: -1.2px;
+          margin: 0;
+          padding: 0;
+        }
+      }
+
+      .os__slider {
+        display: flex;
+        gap: 23px;
+        margin-top: 96px;
+
+        img {
+          width: 480px;
+          height: 614px;
+        }
+      }
+
+      .os_arrow {
+        width: 480px;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 18px;
+      }
+
+      .location {
+        margin-top: 241px;
+        width: 1301px;
+
+        &__container {
+          display: flex;
+
+          justify-content: space-between;
+          align-items: center;
+        }
+
+        &__description {
+          width: 409px;
+          margin: -22px 0 0 0;
+        }
+
+        &__title {
+          font-family: Mirra Auriolic;
+          font-size: 90px;
+          line-height: 128%;
+          letter-spacing: 1.5px;
+          margin: 0;
+        }
+
+        &__metric {
+          margin-top: 156px;
+          display: flex;
+          justify-content: space-between;
+        }
+
+        &__metric_item {
+          p {
+            margin: 0;
+            font-family: Poiret One;
+            font-size: 65px;
+            line-height: 77px; /* 118.462% */
+            letter-spacing: -3.25px;
+          }
+
+          span {
+            color: $blue_3;
+            font-size: 24px;
+            font-weight: 200;
+            line-height: 80%; /* 19.2px */
+            letter-spacing: -1.2px;
+          }
+        }
+      }
+    }
+
+    .maps {
+      margin-top: 150px;
+
+      &__route {
+        display: flex;
+        margin: -3px 0 0 221px;
+        width: 1486px;
+
+        button {
+          width: 481px;
+          background-color: $brown;
+          border: none;
+          padding: 0;
+          cursor: pointer;
+
+          :hover {
+            opacity: 0.7;
+          }
+
+          span {
+            display: flex;
+            align-items: center;
+            color: $white1;
+            line-height: 140%; /* 28px */
+            margin-left: 25px;
+          }
+
+          span:before {
+            content: url("/src/images/map_icon.svg");
+          }
+        }
+
+        .city {
+          background-color: $blue_2;
+          color: $white1;
+          border: none;
+          text-align: center;
+          width: 272px;
+        }
+
+        .city:-webkit-autofill {
+          background-color: $blue_2;
+          color: $white1;
+        }
+
+        div {
+          background-color: $blue_2;
+          width: 355.5px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+
+          p {
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          }
+        }
+
+        .plane_border {
+          border-left: 1px solid $blue_3;
+          border-right: 1px solid $blue_3;
+        }
+
+        .plane:before {
+          content: url("/src/images/plane_icon.svg");
+          display: block;
+          width: 47px;
+          height: 47px;
+        }
+
+        .train:before {
+          content: url("/src/images/train_icon.svg");
+          display: block;
+          width: 47px;
+          height: 47px;
+        }
+      }
+
+      &__map {
+        position: relative;
+        width: 100%;
+        height: 692px;
+        background-image: url("/src/images/maps.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        z-index: -1;
+        margin-top: -32px;
+
+        .map_focus {
+          top: 289px;
+          right: 764px;
+          z-index: 2;
+        }
+
+        .map_pointer {
+          top: 148px;
+          left: 882px;
+          z-index: 1;
+        }
+
+        .map_pointer, .map_focus {
+          position: absolute;
+        }
+      }
+
+      &__design {
+        position: relative;
+        height: 1007px;
+
+        .estate_karelia {
+          width: 3000px;
+          position: absolute;
+          top: 186px;
+          left: 77px;
+          margin: 0;
+          color: $white1;
+          font-family: Mirra Auriolic;
+          font-size: 350px;
+          line-height: 261px; /* 74.571% */
+          letter-spacing: -6.5px;
+        }
+
+        .design_div {
+          width: 2065px;
+          height: 629px;
+          background: linear-gradient(2deg, #B3D6E4 45.57%, #82C5DF 88.07%);
+          position: absolute;
+          top: 0;
+          left: 0;
+          z-index: -2;
+        }
+
+        img {
+          position: absolute;
+          top: 188px;
+          left: 0;
+          z-index: -1;
+        }
+
+        .footer_form {
+          position: absolute;
+          top: 167px;
+          right: 346px;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          width: 480px;
+          height: 706px;
+          background-color: $brown;
+
+          &__padding {
+            width: 350px;
+            margin-top: 55px;
+            margin: 55px auto 17px auto;
+          }
+
+          &__title {
+            font-family: Mirra Auriolic;
+            font-size: 50px;
+            line-height: 103%; /* 51.5px */
+            letter-spacing: -1.5px;
+          }
+
+          &__description {
+            width: 100%;
+            font-size: 24px;
+            font-weight: 300;
+            margin: 0;
+            padding-top: 32px;
+          }
+          &__input_block {
+            margin-top: 63px;
+            display: flex;
+            gap: 40px;
+            flex-direction: column;
+          }
+
+          &__input {
+            color: $white1;
+            width: 100%;
+            height: 41px;
+            border: none;
+            border-bottom: 1px solid $white1;
+            border-left: 1px solid $white1;
+            background-color: $brown;
+            font-size: 16px;
+            padding-left: 27px;
+            box-sizing: border-box;
+          }
+
+          &__input::-webkit-input-placeholder {
+            color: $white1;
+
+          }
+
+          &__input::-moz-placeholder {
+            color: $white1;
+          }
+
+          &__span {
+            font-size: 13px;
+            font-weight: 300;
+            line-height: 17.8px; /* 136.923% */
+            margin-top: 78px;
+            display: block;
+          }
+
+          &__button {
+            width: 100%;
+            height: 57px;
+            background: $white1;
+            color: $white1;
+            font-size: 24px;
+            font-weight: 500;
+            line-height: 25.8px; /* 107.5% */
+            align-self: stretch;
+            border: none;
+            padding: 0;
+          }
+        }
+
+      }
+    }
+
+    footer {
+      height: 622px;
+      width: 1486px;
+      display: flex;
+      justify-content: space-between;
+      margin: 0 auto;
+      padding: 158px 0 138px 0;
+      box-sizing: border-box;
+      .footer {
+        &__caption {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          .title {
+            font-family: Mirra Auriolic;
+            color: $white1;
+            font-size: 90px;
+            line-height: 96%; /* 86.4px */
+            letter-spacing: -4.5px;
+          }
+        }
+        &__contacts {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          font-size: 24px;
+          font-weight: 500;
+          padding-left: 269px;
+
+          p {
+            margin: 0;
+          }
+          .mail {
+            height: 197px;
+          }
+        }
+
+        &__nav_list {
+          list-style: none;
+          padding: 0;
+          margin: 0;
+          width: 229px;
+          line-height: 2.2;
+          font-size: 24px;
+          font-weight: 200;
+        }
+      }
+    }
+  }
 }
